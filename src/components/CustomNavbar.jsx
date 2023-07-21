@@ -43,9 +43,9 @@ const CustomNavbar = () => {
 							<NavDropdown.Divider />
 							<NavDropdown.Item href="#action/3.4">More</NavDropdown.Item>
 						</NavDropdown>
-						<Nav.Link as={NavLink} to="/about">
+						{/* <Nav.Link as={NavLink} to="/about">
 							About
-						</Nav.Link>
+						</Nav.Link> */}
 						<Nav.Link as={NavLink} to="/contact">
 							Contact Us
 						</Nav.Link>
