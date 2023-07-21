@@ -1,6 +1,6 @@
 // export const BASE_URL=`http://localhost:7070`;
 
-export const BASE_URL = `shashyabhray.up.railway.app`;
+export const BASE_URL = `https://shashyabhray.up.railway.app`;
 export const getProductImageUrl = (productId) => {
 	return `${BASE_URL}/products/image/${productId}`;
 };
