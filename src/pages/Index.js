@@ -13,53 +13,26 @@ import watchProduct from "../assests/logo/watchProduct.png";
 import follower from "../assests/logo/follower.jpg";
 
 const index = () => {
-	let styleCss1 = {
-		position: "absolute",
-		top: "45%",
-		left: "33%",
-		color: "black",
-		fontSize: "80px",
-		transform: "translate(-50%, -50%)",
-		fontFamily: "serif",
-	};
-	let styleCss2 = {
-		position: "absolute",
-		top: "75%",
-		left: "30%",
-		color: "black",
-		fontSize: "40px",
-		transform: "translate(-50%, -50%)",
-		fontFamily: "serif",
-	};
 	return (
 		<>
-			<div>
-				<section className="text-center">
-					<img
-						src={backlogo4}
-						style={{
-							width: "99vw",
-							height: "100vh",
-							objectFit: "cover",
-							position: "relative",
-						}}
-						alt=""
-					/>
-					<div className="">
-						<div>
-							<span style={styleCss1}>GET START YOUR FAVOURITE SHOPPING</span>
-						</div>
-						<div>
-							<Button as={Link} to={"/store"} style={styleCss2}>
-								SHOP NOW
-							</Button>
-						</div>
+			<section style={{ marginTop: "7rem" }}>
+				<div
+					className="text-center"
+					style={{ position: "relative", fontFamily: "serif", fontSize: "5rem" }}
+				>
+					<div>
+						<span>GET START YOUR FAVOURITE SHOPPING</span>
 					</div>
-				</section>
-			</div>
+					<div>
+						<Button style={{ fontSize: "2.6rem" }} as={Link} to={"/store"}>
+							SHOP NOW
+						</Button>
+					</div>
+				</div>
+			</section>
 
 			{/* 2nd Section */}
-			<div style={{ marginTop: "4rem" }}>
+			<div style={{ marginTop: "10rem" }}>
 				<section>
 					<Container>
 						<h1 className="text-center ">Glimpse of Our Story</h1>

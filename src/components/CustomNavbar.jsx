@@ -18,7 +18,6 @@ const CustomNavbar = () => {
 	};
 	let navStyle = {
 		backgroundColor: "#26a69a",
-		height: "80px",
 	};
 
 	return (
