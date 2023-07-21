@@ -76,7 +76,7 @@ const index = () => {
 											</h3>
 
 											<h5>Total Categories : 91273+</h5>
-											<h5>Best Selling Categories : 7289+</h5>
+											<h5>Best Categories : 7289+</h5>
 										</Card.Body>
 									</Card>
 								</Col>
