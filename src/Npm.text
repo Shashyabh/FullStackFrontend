@@ -1,0 +1,10 @@
+npm i @tinymce/tinymce-react
+npm i react-infinite-scroll-component
+ npm install sweetalert2
+ npm install react-icons
+ npm i axios
+ npm i react-toastify
+ npm install react-router-dom
+ npm install react-bootstrap bootstrap
+ https://www.tiny.cloud/docs/tinymce/6/react-cloud/
+ npm i html-react-parser
